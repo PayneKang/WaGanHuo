@@ -1,0 +1,5 @@
+E:\Payne\WaGanHuo\WaGanHuo\WaGanHuo.Web\bin\WaGanHuo.Web.dll
+E:\Payne\WaGanHuo\WaGanHuo\WaGanHuo.Web\bin\WaGanHuo.Web.pdb
+E:\Payne\WaGanHuo\WaGanHuo\WaGanHuo.Web\obj\Debug\WaGanHuo.Web.csprojResolveAssemblyReference.cache
+E:\Payne\WaGanHuo\WaGanHuo\WaGanHuo.Web\obj\Debug\WaGanHuo.Web.dll
+E:\Payne\WaGanHuo\WaGanHuo\WaGanHuo.Web\obj\Debug\WaGanHuo.Web.pdb
