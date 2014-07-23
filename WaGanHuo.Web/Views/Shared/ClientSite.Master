@@ -1,74 +1,29 @@
 ﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
-
-<!doctype html>
-<html>
+<!doctype html><html>
 <head>
-    <meta charset="utf-8" />
-    <title>挖干货 | 实实在在的技术文章干货推荐</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="weibo:webpage:create_at" content="" />
-    <meta name="weibo:webpage:update_at" content="" />
-    <link href="/Content/Site.css" rel="stylesheet" type="text/css" />
-    <meta name="mobile-agent" content="format=html5;url=http://m.waganhuo.net/" />
-    <link rel="canonical" href="www.waganhuo.net" />
-    <script src="/Scripts/jquery-1.11.1.min.js" type="text/javascript"></script>
-    <meta property="og:type" content="webpage" />
-    <meta property="og:url" content="www.waganhuo.net/" />
-    <meta property="og:title" content="挖干货 | 实实在在的技术文章干货推荐" />
-    <meta property="og:description" content="挖干货为程序猿们搜索分享各种牛人干货" />
-    <meta name="keywords" content="挖干货为程序猿们搜索分享各种牛人干货" />
-    <meta name="description" content="挖干货为程序猿们搜索分享各种牛人干货" />
-</head>
+<meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="/Scripts/jquery-1.11.1.min.js" type="text/javascript"></script>
+<meta property="og:type" content="webpage" /><meta property="og:url" content="www.waganhuo.net/" /><meta property="og:title" content="挖干货 | 实实在在的技术文章干货推荐" /><meta property="og:description" content="挖干货为程序猿们搜索分享各种牛人干货" /><meta name="weibo:webpage:create_at" content="" />
+<meta name="weibo:webpage:update_at" content="" />
+<link href="/Content/Site.css" rel="stylesheet" type="text/css" /><meta name="mobile-agent" content="format=html5;url=http://m.waganhuo.net/" /><link rel="canonical" href="www.waganhuo.net" /><title>挖干货 | 实实在在的技术文章干货推荐</title>
+<meta name="keywords" content="挖干货为程序猿们搜索分享各种牛人干货"/>
+<meta name="description" content="挖干货为程序猿们搜索分享各种牛人干货"/></head>
 <body>
 <!--如果是移动设备访问，导向到移动版的页面-->
 <script type="text/javascript">
     var ua = navigator.userAgent.toLowerCase();
     if (/iphone|ipod|android|windows phone|blackberry/.test(ua)) {
-        this.location = 'http://m.waganhuo.net/';
+        this.location = 'http://m.smzdm.com/';
     }
 </script>
-<!--/如果是移动设备访问，导向到移动版的页面-->
-<!--Header-->
-<header>
-    <!--topNavWrap-->
-    <div class="topNavWrap">
-        <div class="navItem">
-            <nav>
-                <a href="/">首页</a>
-                <a href="/">干货</a>
-                <a href="/">牛人</a>
-                <a href="/">推荐</a>
-            </nav>
-            <!-- Login Area -->
-            <div class="loginPanel">
-                <nav>
-                    <a href="/">登录</a>
-                    <a href="/">注册</a>
-                </nav>
-            </div>
-            <!-- / Login Area -->
-        </div>
+<!--/如果是移动设备访问，导向到移动版的页面--><!--Header--><header><!--navBarWrap--><div class="topNavBar">    <div class="navItem">        <nav>            <a href="/">首页</a>            <a href="/">干货</a>            <a href="/">牛人</a>            <a href="/">推荐</a>        </nav>        <!-- Login Area -->        <div class="loginPanel">        </div>        <!-- / Login Area -->    </div></div><!--/navBarWrap--></header><!--/Header--></body>
+</html>
+
+
+
+
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
     </div>
-    <!--/topNavWrap-->
-    <!--headerWrap-->
-    <div class="headerWrap">
-        <div class="headerLeft"></div>
-        <div class="headerRight"></div>
-    </div>
-    <!--/headerWrap-->
-</header>
-<!--/Header-->
-<!--Section content wrap-->
-<section class="contentWrap">
-</section>
-<!--/Section content wrap-->
-<section class="contentWrap">
-<div class="blockLeftWrap"></div>
-<div class="blockRightWrap"></div>
-</section>
 </body>
 </html>
-<div>
-    <asp:contentplaceholder id="MainContent" runat="server"></asp:contentplaceholder>
-</div>
-</body> </html> 
