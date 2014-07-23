@@ -3,3 +3,4 @@ E:\Payne\WaGanHuo\WaGanHuo\WaGanHuo.DAO\bin\Debug\WaGanHuo.DAO.dll
 E:\Payne\WaGanHuo\WaGanHuo\WaGanHuo.DAO\bin\Debug\WaGanHuo.DAO.pdb
 E:\Payne\WaGanHuo\WaGanHuo\WaGanHuo.DAO\obj\Debug\WaGanHuo.DAO.dll
 E:\Payne\WaGanHuo\WaGanHuo\WaGanHuo.DAO\obj\Debug\WaGanHuo.DAO.pdb
+E:\Payne\WaGanHuo\WaGanHuo\WaGanHuo.DAO\obj\Debug\WaGanHuo.DAO.csprojResolveAssemblyReference.cache
