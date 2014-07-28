@@ -63,7 +63,36 @@
 </section>
 <!--/Section content wrap-->
 <section class="contentWrap">
-<div class="blockLeftWrap"></div>
+<div class="blockLeftWrap">
+    <div class="tagPanel">
+        <dl>
+            <h1>技术标签</h1>
+            <dt>.Net</dt>
+            <dt>Java</dt>
+            <dt>Handoop</dt>
+            <dt>C#</dt>
+            <dt>C++</dt>
+        </dl>
+        <dl>
+            <h1>牛人标签</h1>
+            <dt>Jeffer赵</dt>
+            <dt>魏京东</dt>
+        </dl>
+        <dl>
+            <h1>牛站导航</h1>
+            <dt>CSDN</dt>
+            <dt>博客园</dt>
+        </dl>
+    </div>
+    <div class="adScrollPanel">
+        <dl>
+            <dt><img src="#" alt="" /></dt>
+            <dt><img src="#" alt="" /></dt>
+            <dt><img src="#" alt="" /></dt>
+            <dt><img src="#" alt="" /></dt>
+        </dl>
+    </div>
+</div>
 <div class="blockRightWrap"></div>
 </section>
 </body>
@@ -71,4 +100,5 @@
 <div>
     <asp:contentplaceholder id="MainContent" runat="server"></asp:contentplaceholder>
 </div>
-</body> </html> 
+</body> 
+</html> 
