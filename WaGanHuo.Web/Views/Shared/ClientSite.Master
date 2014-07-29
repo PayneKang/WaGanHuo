@@ -58,47 +58,61 @@
     <!--/headerWrap-->
 </header>
 <!--/Header-->
-<!--Section content wrap-->
+<!--Section content wrap 1-->
 <section class="contentWrap">
 </section>
-<!--/Section content wrap-->
+<!--/Section content wrap 1-->
+<!--Section content wrap 2-->
 <section class="contentWrap">
-<div class="blockLeftWrap">
-    <div class="tagPanel">
-        <dl>
-            <h1>技术标签</h1>
-            <dt>.Net</dt>
-            <dt>Java</dt>
-            <dt>Handoop</dt>
-            <dt>C#</dt>
-            <dt>C++</dt>
-        </dl>
-        <dl>
-            <h1>牛人标签</h1>
-            <dt>Jeffer赵</dt>
-            <dt>魏京东</dt>
-        </dl>
-        <dl>
-            <h1>牛站导航</h1>
-            <dt>CSDN</dt>
-            <dt>博客园</dt>
-        </dl>
+    <!--Left Wrap-->
+    <div class="blockLeftWrap">
+        <div class="leftTopWrap">
+            <div class="tagWrap">
+                <dl>
+                    <h1><a href="#">技术标签</a></h1>
+                    <dt><a href="#">.Net</a></dt>
+                    <dt><a href="#">Java</a></dt>
+                    <dt><a href="#">Handoop</a></dt>
+                    <dt><a href="#">C#</a></dt>
+                    <dt><a href="#">C++</a></dt>
+                </dl>
+                <dl>
+                    <h1>牛人标签</h1>
+                    <dt><a href="#">Jeffer赵</a></dt>
+                    <dt><a href="#">魏京东</a></dt>
+                </dl>
+                <dl>
+                    <h1>牛站导航</h1>
+                    <dt><a href="#">CSDN</a></dt>
+                    <dt><a href="#">博客园</a></dt>
+                </dl>
+            </div>
+            <div class="adScrollPanel">
+                <dl>
+                    <dt><a href="#"><img src="#" alt="" /></a></dt>
+                    <dt><a href="#"><img src="#" alt="" /></a></dt>
+                    <dt><a href="#"><img src="#" alt="" /></a></dt>
+                    <dt><a href="#"><img src="#" alt="" /></a></dt>
+                </dl>
+            </div>
+        </div>
+        <div class="recommendArticle">
+            <h1>推荐文章</h1>
+            <dl>
+                <dt><a href="#">模拟JavaEE的Filter</a></dt>
+                <dt><a href="#">VB6-系统打印常识</a></dt>
+                <dt><a href="#">浅谈 js 对象 toJSON 方法</a></dt>
+            </dl>
+        </div>
     </div>
-    <div class="adScrollPanel">
-        <dl>
-            <dt><img src="#" alt="" /></dt>
-            <dt><img src="#" alt="" /></dt>
-            <dt><img src="#" alt="" /></dt>
-            <dt><img src="#" alt="" /></dt>
-        </dl>
+    <!--/Left wrap-->
+    <div class="blockRightWrap">
     </div>
-</div>
-<div class="blockRightWrap"></div>
 </section>
+<!--/Section content wrap 2-->
+<!-- footer -->
+<footer>
+</footer>
+<!-- /footer -->
 </body>
 </html>
-<div>
-    <asp:contentplaceholder id="MainContent" runat="server"></asp:contentplaceholder>
-</div>
-</body> 
-</html> 
