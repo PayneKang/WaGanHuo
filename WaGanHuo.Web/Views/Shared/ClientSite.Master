@@ -37,7 +37,7 @@
                 <a href="/">首页</a>
                 <a href="/">干货</a>
                 <a href="/">牛人</a>
-                <a href="/">推荐</a>
+                <a href="/">推荐 - 挖来</a>
             </nav>
             <!-- Login Area -->
             <div class="loginPanel">
@@ -58,60 +58,29 @@
     <!--/headerWrap-->
 </header>
 <!--/Header-->
-<!--Section content wrap 1-->
-<section class="contentWrap">
-</section>
-<!--/Section content wrap 1-->
-<!--Section content wrap 2-->
-<section class="contentWrap">
-    <!--Left Wrap-->
-    <div class="blockLeftWrap">
-        <div class="leftTopWrap">
-            <div class="tagWrap">
-                <dl>
-                    <h1><a href="#">技术标签</a></h1>
-                    <dt><a href="#">.Net</a></dt>
-                    <dt><a href="#">Java</a></dt>
-                    <dt><a href="#">Handoop</a></dt>
-                    <dt><a href="#">C#</a></dt>
-                    <dt><a href="#">C++</a></dt>
-                </dl>
-                <dl>
-                    <h1>牛人标签</h1>
-                    <dt><a href="#">Jeffer赵</a></dt>
-                    <dt><a href="#">魏京东</a></dt>
-                </dl>
-                <dl>
-                    <h1>牛站导航</h1>
-                    <dt><a href="#">CSDN</a></dt>
-                    <dt><a href="#">博客园</a></dt>
-                </dl>
-            </div>
-            <div class="adScrollPanel">
-                <dl>
-                    <dt><a href="#"><img src="#" alt="" /></a></dt>
-                    <dt><a href="#"><img src="#" alt="" /></a></dt>
-                    <dt><a href="#"><img src="#" alt="" /></a></dt>
-                    <dt><a href="#"><img src="#" alt="" /></a></dt>
-                </dl>
-            </div>
-        </div>
-        <div class="recommendArticle">
-            <h1>推荐文章</h1>
-            <dl>
-                <dt><a href="#">模拟JavaEE的Filter</a></dt>
-                <dt><a href="#">VB6-系统打印常识</a></dt>
-                <dt><a href="#">浅谈 js 对象 toJSON 方法</a></dt>
-            </dl>
-        </div>
-    </div>
-    <!--/Left wrap-->
-    <div class="blockRightWrap">
-    </div>
-</section>
-<!--/Section content wrap 2-->
+<asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
 <!-- footer -->
 <footer>
+    <div class="friendLink">
+        <h1>友情链接</h1>
+        <dl>
+            <dt><a href="#">张三网</a></dt>
+            <dt><a href="#">张三网</a></dt>
+            <dt><a href="#">张三网</a></dt>
+            <dt><a href="#">张三网</a></dt>
+            <dt><a href="#">张三网</a></dt>
+            <dt><a href="#">张三网</a></dt>
+            <dt><a href="#">张三网</a></dt>
+        </dl>
+    </div>
+    <div class="footer">
+        <dl class="nav">
+            <dt>关于挖一挖</dt>
+            <dt>联系我们</dt>
+            <dt>广告</dt>
+        </dl>
+        <div class="copyright">浙ICP备14024518号 @2014</div>
+    </div>
 </footer>
 <!-- /footer -->
 </body>
