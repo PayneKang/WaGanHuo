@@ -1,11 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/ClientSite.Master" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
-<!--Section content wrap 1-->
-<section class="contentWrap">
-</section>
-<!--/Section content wrap 1-->
+<div class="clearance"></div>
 <!--Section content wrap 2-->
 <section class="contentWrap">
     <!--Left Wrap-->

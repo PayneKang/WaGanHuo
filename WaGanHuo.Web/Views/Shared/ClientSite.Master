@@ -37,7 +37,7 @@
                 <a href="/">首页</a>
                 <a href="/">干货</a>
                 <a href="/">牛人</a>
-                <a href="/">推荐 - 挖来</a>
+                <a href="/">我要挖</a>
             </nav>
             <!-- Login Area -->
             <div class="loginPanel">
@@ -52,8 +52,10 @@
     <!--/topNavWrap-->
     <!--headerWrap-->
     <div class="headerWrap">
-        <div class="headerLeft"></div>
-        <div class="headerRight"></div>
+        <div class="headerPanel">
+            <div class="headerLeft"><img src="/Content/images/sitebase/logo.png" /></div>
+            <div class="headerRight"></div>
+        </div>
     </div>
     <!--/headerWrap-->
 </header>

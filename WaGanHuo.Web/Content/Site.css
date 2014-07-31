@@ -1,1 +1,16 @@
-body{ background-color:#c6b9ac; }
+body{ background-color:#FFF; font-size:14px; font-family: 'Microsoft YaHei UI','Microsoft YaHei','SimSun','Segoe UI','Lucida Grande',Verdana,Arial,Helvetica,sans-serif!important; margin:0px; padding:0px;}
+div {display:block; margin:0px; padding:0px;}
+header{ min-width:1000px; width:100%; margin-bottom:20px; margin:0px; padding:0px;}
+header .topNavWrap{ background-color:#000; width:100%; overflow:auto; top:0; left:0; z-index:100; -webkit-transform: translate3d(0,0,0);}
+header .topNavWrap .navItem{ width:1000px; margin: 0px auto; height:32px; line-height:32px;}
+header .topNavWrap .navItem nav{ width:600px; height:32px; line-height:32px; float:left;}
+header .topNavWrap .navItem .loginPanel{ width:400px; float: right; height: 32px; position: relative;}
+header .topNavWrap .navItem .loginPanel nav{ width:400px; float: right; height: 32px; position: relative;}
+header .topNavWrap .navItem nav a{ color:#FFF; text-decoration:none;  padding:0px 5px; }
+header .topNavWrap .navItem nav a:Hover{ color:#00bcf2; text-decoration:none;  padding:0px 5px; transition: .3s ease-in-out;}
+header .topNavWrap .navItem .loginPanel a{ color:#FFF; text-decoration:none;  padding:0px 5px; }
+header .topNavWrap .navItem .loginPanel a:Hover{ color:#CCC; text-decoration:none;  padding:0px 5px; transition: .3s ease-in-out; }
+header .headerWrap {top:32px; left:0px;  padding:5px 0px; margin:0px; width:100%; background-color:#f0f0f0; border-bottom: 1px solid #dcdcdc; height:60px;}
+header .headerWrap .headerPanel {width:1000px; margin:0px auto; height:60px;}
+.clearance{ height:5px; }
+.contentWrap{ width:1000px; margin:0px auto;}
