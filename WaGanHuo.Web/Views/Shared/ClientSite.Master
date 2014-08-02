@@ -41,10 +41,8 @@
             </nav>
             <!-- Login Area -->
             <div class="loginPanel">
-                <nav>
-                    <a href="/">登录</a>
-                    <a href="/">注册</a>
-                </nav>
+                <a href="/">登录</a>
+                <a href="/">注册</a>
             </div>
             <!-- / Login Area -->
         </div>
@@ -60,7 +58,9 @@
     <!--/headerWrap-->
 </header>
 <!--/Header-->
+<div class="clear"></div>
 <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+<div class="clear"></div>
 <!-- footer -->
 <footer>
     <div class="friendLink">

@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/ClientSite.Master" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-<div class="clearance"></div>
 <!--Section content wrap 2-->
 <section class="contentWrap">
     <!--Left Wrap-->
@@ -36,14 +35,15 @@
                 </dl>
             </div>
         </div>
-        <div class="recommendArticle">
+        <div class="clear"></div>
+        <%--<div class="recommendArticle">
             <h1>挖文章</h1>
             <dl>
                 <dt><a href="#">模拟JavaEE的Filter</a></dt>
                 <dt><a href="#">VB6-系统打印常识</a></dt>
                 <dt><a href="#">浅谈 js 对象 toJSON 方法</a></dt>
             </dl>
-        </div>
+        </div>--%>
         <div class="articleList">
             <div class="articleListTitle">
                 <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
