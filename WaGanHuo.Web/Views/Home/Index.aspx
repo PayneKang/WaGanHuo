@@ -8,7 +8,7 @@
         <div class="leftTopWrap">
             <div class="tagWrap">
                 <dl>
-                    <h1><a href="#">技术标签</a></h1>
+                    <h1>技术标签</h1>
                     <dt><a href="#">.Net</a></dt>
                     <dt><a href="#">Java</a></dt>
                     <dt><a href="#">Handoop</a></dt>
@@ -46,7 +46,31 @@
         </div>--%>
         <div class="articleList">
             <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
+                <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher、Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
+                <div class="clear"></div>
+                <div class="listTop">
+                    <span class="time">2014-06-06 08:00</span>
+                    <span class="recommendTag">挖友：张三</span>
+                    <span class="listTags">
+                        <a href="#" target="_blank">Android</a>
+                        <a href="#" target="_blank">Tabhost</a>
+                        <a href="#" target="_blank">listview</a>                    
+                    </span>
+                </div>
+                <div class="intro">
+                    Tabhost控件又称分页控件，在很多的开发语言中都存在。它可以拥有多个标签页，每个标签页可以拥有不同的内容。android中，一个标签页可以放 一个view或者一个activity。TabHost是标签控件类的核心类，也是标签的集合。1.tabhost定义android控件中有封装好的tab控件，...
+                    <a href="#"  target="_blank" >阅读全文</a>
+                </div>
+                <div class="listBot">
+                    <div>推荐<em>5</em></div>
+                    <div>收藏<em>12</em></div>
+                    <div>评论<em>8</em></div>
+                    <div>阅读<em>1189</em></div>
+                </div>
+            </div>
+            <div class="articleListTitle">
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">
@@ -70,7 +94,7 @@
                 </div>
             </div>
             <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">
@@ -94,7 +118,7 @@
                 </div>
             </div>
             <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">
@@ -118,7 +142,7 @@
                 </div>
             </div>
             <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">
@@ -142,7 +166,7 @@
                 </div>
             </div>
             <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">
@@ -166,7 +190,7 @@
                 </div>
             </div>
             <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">
@@ -190,7 +214,7 @@
                 </div>
             </div>
             <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">
@@ -214,7 +238,7 @@
                 </div>
             </div>
             <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">
@@ -238,7 +262,7 @@
                 </div>
             </div>
             <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">
@@ -262,7 +286,7 @@
                 </div>
             </div>
             <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">
@@ -286,31 +310,7 @@
                 </div>
             </div>
             <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
-                <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
-                <div class="clear"></div>
-                <div class="listTop">
-                    <span class="time">2014-06-06 08:00</span>
-                    <span class="recommendTag">挖友：张三</span>
-                    <span class="listTags">
-                        <a href="#" target="_blank">Android</a>
-                        <a href="#" target="_blank">Tabhost</a>
-                        <a href="#" target="_blank">listview</a>                    
-                    </span>
-                </div>
-                <div class="intro">
-                    Tabhost控件又称分页控件，在很多的开发语言中都存在。它可以拥有多个标签页，每个标签页可以拥有不同的内容。android中，一个标签页可以放 一个view或者一个activity。TabHost是标签控件类的核心类，也是标签的集合。1.tabhost定义android控件中有封装好的tab控件，...
-                    <a href="#"  target="_blank" >阅读全文</a>
-                </div>
-                <div class="listBot">
-                    <div>推荐<em>5</em></div>
-                    <div>收藏<em>12</em></div>
-                    <div>评论<em>8</em></div>
-                    <div>阅读<em>1189</em></div>
-                </div>
-            </div>
-            <div class="articleListTitle">
-                <div class="recommendIcon" onclick="recommendArticle(id)">荐|热|新</div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">
