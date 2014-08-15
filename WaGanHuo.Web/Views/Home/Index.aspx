@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="articleListTitle">
-                <div class="icon"><span class="recommend" onclick="recommendArticle(id)">荐</span>|<span class="hot">热</span>|<span class="new">新</span></div>
+                <div class="icon"><span class="recommend" onclick="recommendArticle(id)"><a href="#">荐</a></span>|<span class="hot"><a href="#">热</a></span>|<span class="new"><a href="#">新</a></span></div>
                 <h1><a onclick="logAction('send', 'event','门户','文章标题','标题内容');" href="#" target="_blank">Android学习Tabhost、gallery、listview、imageswitcher</a></h1>
                 <div class="clear"></div>
                 <div class="listTop">

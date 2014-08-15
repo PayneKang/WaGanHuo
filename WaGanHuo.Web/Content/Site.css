@@ -25,5 +25,11 @@ header .headerWrap .headerPanel {width:1000px; margin:0px auto; height:60px;}
 .contentWrap .blockLeftWrap .leftTopWrap .tagWrap dl dt a:Hover{ color:#00bcf2; text-decoration:none; }
 .contentWrap .blockLeftWrap .articleList{ margin-top:10px; border-top:solid 1px #CCC; }
 .contentWrap .blockLeftWrap .articleList .articleListTitle{ border-bottom:solid 1px #CCC; }
-.contentWrap .blockLeftWrap .articleList .articleListTitle .icon{ float:left; overflow:auto; width:60px;}
-.contentWrap .blockLeftWrap .articleList .articleListTitle h1{padding-left:60px;}
+.contentWrap .blockLeftWrap .articleList .articleListTitle .icon{ text-align:center; vertical-align:middle; float:left; overflow:visible; width:80px; padding-top:3px; color:#999;}
+.contentWrap .blockLeftWrap .articleList .articleListTitle .icon span{ padding:0px 2px 1px 2px; -webkit-border-radius:2px; }
+.contentWrap .blockLeftWrap .articleList .articleListTitle .icon span a{ text-decoration:none; color:#333; }
+.contentWrap .blockLeftWrap .articleList .articleListTitle .icon span a:hover{ color:#FFF; }
+.contentWrap .blockLeftWrap .articleList .articleListTitle .icon .recommend:hover{ background-color:#f04848;}
+.contentWrap .blockLeftWrap .articleList .articleListTitle .icon .hot:hover{ background-color:#f04848; }
+.contentWrap .blockLeftWrap .articleList .articleListTitle .icon .new:hover{ background-color:#f04848; }
+.contentWrap .blockLeftWrap .articleList .articleListTitle h1{padding-left:80px;}
